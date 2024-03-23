@@ -91,7 +91,7 @@ class PCA:
 
     def transform(self):
         """
-        computes projected data onto principal compoents.
+        computes projected data onto principal components.
         :return: np.ndarray
         """
         p_comps = self.principal_components()
